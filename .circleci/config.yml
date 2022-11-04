@@ -60,19 +60,19 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
-          # name: Deploy api
-          # # TODO: Install, build, deploy in api
-          # command: |
-          #   echo "# TODO: Install, build, deploy in api"
-          #   npm run api:install
-          #   npm run api:deploy
-
-          name: Deploy frontend
-          # TODO: Install, build, deploy in frontend
+          name: Deploy api
+          # TODO: Install, build, deploy in api
           command: |
-            echo "# TODO: Install, build, deploy in frontend"
-            npm run frontend:install
-            npm run frontend:deploy
+            echo "# TODO: Install, build, deploy in api"
+            npm run api:install
+            npm run api:deploy
+
+          # name: Deploy frontend
+          # # TODO: Install, build, deploy in frontend
+          # command: |
+          #   echo "# TODO: Install, build, deploy in frontend"
+          #   npm run frontend:install
+          #   npm run frontend:deploy
 
 workflows:
   udagram:
