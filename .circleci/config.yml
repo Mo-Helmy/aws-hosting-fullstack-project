@@ -66,13 +66,13 @@ jobs:
             echo "# TODO: Install, build, deploy api"
             npm run api:install
             npm run api:deploy
-      - run:
-          # TODO: Install, build, deploy in frontend
-          name: frontend-deploy
-          command: |
-            echo "# TODO: Install, build, deploy frontend"
-            npm run frontend:install
-            npm run frontend:deploy
+      # - run:
+      #     # TODO: Install, build, deploy in frontend
+      #     name: frontend-deploy
+      #     command: |
+      #       echo "# TODO: Install, build, deploy frontend"
+      #       npm run frontend:install
+      #       npm run frontend:deploy
 
 workflows:
   udagram:
@@ -83,6 +83,7 @@ workflows:
       #       branches:
       #         only:
       #           - main
+      #           - master
       #     type: approval
       #     requires:
       #       - build
