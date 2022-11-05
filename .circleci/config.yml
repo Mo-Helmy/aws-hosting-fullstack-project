@@ -59,20 +59,20 @@ jobs:
       - eb/setup
       - aws-cli/setup
       - checkout
-      - run:
-          # TODO: Install, build, deploy in api
-          name: api-deploy
-          command: |
-            echo "# TODO: Install, build, deploy api"
-            npm run api:install
-            npm run api:deploy
       # - run:
-      #     # TODO: Install, build, deploy in frontend
-      #     name: frontend-deploy
+      #     # TODO: Install, build, deploy in api
+      #     name: api-deploy
       #     command: |
-      #       echo "# TODO: Install, build, deploy frontend"
-      #       npm run frontend:install
-      #       npm run frontend:deploy
+      #       echo "# TODO: Install, build, deploy api"
+      #       npm run api:install
+      #       npm run api:deploy
+      - run:
+          # TODO: Install, build, deploy in frontend
+          name: frontend-deploy
+          command: |
+            echo "# TODO: Install, build, deploy frontend"
+            npm run frontend:install
+            npm run frontend:deploy
 
 workflows:
   udagram:
