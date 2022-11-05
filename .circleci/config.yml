@@ -60,17 +60,17 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
-          name: Deploy api
           # TODO: Install, build, deploy in api
+          name: api-deploy
           command: |
-            echo "# TODO: Install, build, deploy in api"
+            echo "# TODO: Install, build, deploy api"
             npm run api:install
             npm run api:deploy
 
-          name: Deploy frontend
           # TODO: Install, build, deploy in frontend
+          name: frontend-deploy
           command: |
-            echo "# TODO: Install, build, deploy in frontend"
+            echo "# TODO: Install, build, deploy frontend"
             npm run frontend:install
             npm run frontend:deploy
 
