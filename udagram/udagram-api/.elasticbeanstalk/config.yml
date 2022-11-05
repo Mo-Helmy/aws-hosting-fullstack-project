@@ -1,12 +1,12 @@
 branch-defaults:
   default:
-    environment: Hostingfullstackapp1-env
+    environment: Hostingfullstackapp-env
 environment-defaults:
   Hostingfullstackapp-env:
     branch: null
     repository: null
 global:
-  application_name: hosting-fullstack-app-1
+  application_name: Hosting-Fullstack-app
   default_ec2_keyname: null
   default_platform: Node.js 16 running on 64bit Amazon Linux 2
   default_region: us-east-1
