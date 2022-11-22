@@ -1,4 +1,7 @@
 {
+  "name": "aws-hosting-fullstack-project",
+  "version": "1.0.0",
+  "description": "AWS Hosting Fullstack Project Guide",
   "scripts": {
     "frontend:install": "cd udagram/udagram-frontend && npm install -f",
     "frontend:start": "cd udagram/udagram-frontend && npm run start",
