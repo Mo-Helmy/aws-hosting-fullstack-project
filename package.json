@@ -13,4 +13,12 @@
     "api:deploy": "cd udagram/udagram-api && npm run deploy",
     "deploy": "npm run api:deploy && npm run frontend:deploy"
   }
+  "keywords": [
+    "Udacity",
+    "AWS Hosting Fullstack Project",
+    "AWS Hosting Fullstack Project Master",
+    "Udacity Project",
+    "Advanced Fullstack Nanodegree"
+  ],
+  "author": "Mohamed Helmy",
 }
